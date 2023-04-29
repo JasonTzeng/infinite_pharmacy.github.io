@@ -38,7 +38,6 @@ $(".next").click(function(){
 			animating = false;
 		}, 
 		//this comes from the custom easing plugin
-		easing: 'easeInOutBack'
 	});
 });
 
@@ -73,7 +72,6 @@ $(".previous").click(function(){
 			animating = false;
 		}, 
 		//this comes from the custom easing plugin
-		easing: 'easeInOutBack'
 	});
 });
 
