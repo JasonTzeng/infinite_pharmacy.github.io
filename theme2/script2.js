@@ -95,6 +95,7 @@ function stepBack($step, $pag) {
 
 
 $(".rerun-button").click(function () {
+  location.reload();
   $(".modal-wrap")
     .removeClass("animate-up")
     .find(".modal-body")
